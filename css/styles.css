@@ -1,0 +1,35 @@
+/* a style comment */
+
+body {
+	background-image: url("../images/bg-fog.jpg");
+	background-size: cover;
+}
+
+th, td {
+    padding: 5px; align-items: center;
+}
+
+#aboutme {
+	background-color: green;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: serif;
+}
+
+h1, h2 {
+	color:green;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.aboutimg {
+	float:left; padding: 20px; height: 400px;
+}
+
+.abouttext {
+	color: white
+}

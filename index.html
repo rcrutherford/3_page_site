@@ -2,35 +2,45 @@
 <html>
 	<head>
 		<title>Ron Rutherford Home Page</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
 		<div>
 			<h1><a href="index.html">Ron Rutherford</a></h1>
-			<table>
-				<tr>
-					<td><a href="index.html">Home</a></td>
-					<td><a href="about.html">About</a></td>
-					<td><a href="contact.html">Contact</a></td>
-				</tr>
-			</table>
+			<div class="navbar">
+				<a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a>
+			</div>
 		</div>
+
 		<hr>
-		<div style="float:left; padding: 20px; ">
-			<img src="ron-in-water.jpg" height="400" />
+		<div style="overflow: auto;">
+			<div style="float:left; padding: 20px; ">
+				<img src="./images/ron-in-water.jpg" height="400" />
+			</div>
+			<div>
+				<h1 ">Ron Rutherford</h1>
+				<h2>SQL DBA, Software Developer and Caver in the Austin - San Antonio, TX area</h2>
+				<a id="aboutme" href="https://about.me/ron.rutherford">About Me</a>
+				<p>Database Admin for Calendar Holdings LLC.  Independent data solution expert.  MS SQL Database devaloper and admin.</p>
+				<p>International Caver.  Member National Speleological Society, Texas Speleological Assocation, Texas Cave Management Assocation.  Project Leader Muzquiz Area Coahuila, Mexico.</p>
+			</div>
 		</div>
-		<div>
-			<h1 style="color:green;">Ron Rutherford</h1>
-			<h2>SQL DBA, Software Developer and Caver in the Austin - San Antonio, TX area</h2>
-			<a href="https://about.me/ron.rutherford">About Me</a>
-			<p>Database Admin for Calendar Holdings LLC.  Independent data solution expert.  MS SQL Database devaloper and admin.</p>
-			<p>International Caver.  Member National Speleological Society, Texas Speleological Assocation, Texas Cave Management Assocation.  Project Leader Muzquiz Area Coahuila, Mexico.</p>
-		</div>
-		<div>
-			<img src="ron-onrope.jpg" height="600" />
-			<img src="ron-sewing.jpg" height="500" />
-			<img src="ron-muddy.jpg" height="400" />
-			<img src="ron-team.jpg" width="500" />
+		<div style="width: 100% auto; text-align: center">
+			<img src="./images/ron-onrope.jpg" height="600" />
+			<img src="./images/ron-window.jpg" height="500" />
+			<br>
+			<img src="./images/ron-muddy.jpg" height="400" />
+			<img src="./images/ron-team.jpg" width="500" />
+			<!-- <table align="center">
+				<tr>
+					<td><img src="./images/ron-onrope.jpg" height="600" /></td>
+					<td><img src="./images/ron-window.jpg" height="500" /></td>
+				</tr>
+				<tr>
+					<td><img src="./images/ron-muddy.jpg" height="400" /></td>
+					<td><img src="./images/ron-team.jpg" width="500" /></td>
+				</tr>
+			</table> -->
 		</div>
 	</body>
 </html>
